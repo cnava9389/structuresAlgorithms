@@ -1,5 +1,7 @@
 import numpy as np
-
+class xtraArray():
+    def __init__(self):
+        pass
 class myArray(object):
     def __init__(self,head=0,values=[],size=10):
         self.size = size
@@ -15,7 +17,7 @@ class myArray(object):
     def __str__(self):
         return f"{self.obj[:self.head]}"
     
-    def copyTo(self, otherArray, sorted=False):
+    def copyToNewArray(self, otherArray, sorted=False):
         #this will return new array with values from both arrays
         arr= myArray(size=self.size+otherArray.size)
         if not sorted:
@@ -27,21 +29,7 @@ class myArray(object):
                 arr.head+=1
             return arr
         
-    def increase(self, percent=.75):
-        #new arr with new increase based on percentage
-        otherSize = int(self.size*percent)
-        arr = myArray(size=otherSize)
-        return arr.copyTo(self)   
-    
-    #!find a better way for this 
-    def decrease(self,percent=0):
-        newSize= int(self.size - (self.size*percent))
-        if (newSize)>=(self.head):
-            arr = myArray(size=(self.size-newSize))
-            return arr.copyTo(self)
-        else:
-            arr = myArray(size=self.head)
-            return arr.copyTo(self)
+
     
     def add(self, item):
         if(self.size==self.head):
@@ -49,12 +37,11 @@ class myArray(object):
             self.head+=1
             self.obj[self.head]
 
+
 def main():
     x=myArray(values=[1,2,3,4])
-    print(x.size)
-    x= x.decrease()
-    print(x.size)
-   
+    y = myArray(values=[7,8,9])
+
 
 if __name__ == '__main__':
     main()
