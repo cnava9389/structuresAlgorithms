@@ -1,0 +1,24 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\cnava\\desktop\\projects\\cpp\\math\\math\\main.cppm",
+        "ProvidedModule": "",
+        "Includes": [],
+        "ImportedModules": [
+            {
+                "Name": "Math",
+                "BMI": "C:\\Users\\cnava\\Desktop\\Projects\\Cpp\\math\\math\\Debug\\Math.ixx.ifc"
+            }
+        ],
+        "ImportedHeaderUnits": [
+            {
+                "Header": "c:\\program files (x86)\\microsoft visual studio\\2019\\community\\vc\\tools\\msvc\\14.29.30133\\include\\iostream",
+                "BMI": "C:\\Users\\cnava\\Desktop\\Projects\\Cpp\\math\\math\\Debug\\iostream_QAGGE4B12ZC9CRFI.ifc"
+            },
+            {
+                "Header": "c:\\program files (x86)\\microsoft visual studio\\2019\\community\\vc\\tools\\msvc\\14.29.30133\\include\\string",
+                "BMI": "C:\\Users\\cnava\\Desktop\\Projects\\Cpp\\math\\math\\Debug\\string_SBKUD8WNBCFE85HH.ifc"
+            }
+        ]
+    }
+}

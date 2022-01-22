@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\cnava\\desktop\\projects\\cpp\\math\\math\\math.ixx",
+        "ProvidedModule": "Math",
+        "ImportedModules": [],
+        "ImportedHeaderUnits": [
+            "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include\\iostream",
+            "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include\\string",
+            "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include\\stdexcept"
+        ]
+    }
+}

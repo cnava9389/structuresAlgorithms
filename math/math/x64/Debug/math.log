@@ -1,0 +1,6 @@
+﻿  Scanning sources for module dependencies...
+  Math.ixx
+  Compiling...
+  Math.ixx
+C:\Users\cnava\Desktop\Projects\Cpp\math\math\Math.ixx(95,10): error C2512: 'Fraction': no appropriate default constructor available
+C:\Users\cnava\Desktop\Projects\Cpp\math\math\Math.ixx(8,14): message : see declaration of 'Fraction'
